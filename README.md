@@ -24,7 +24,7 @@ AmirCoin is a simple, API-operated cryptocurrency written in Python. It utilizes
 
 Follow these one-time directions:
 
-1. Clone the AmirCoin repository to your local machine.
+1. Clone the AmirCoin repository to your local machine./    Open command-line interface, enter `git clone https://github.com/amirrsyed/amircoin.git`.
 2. Install the required dependencies (`rsa`, `flask`).
 3. Run the `api.py` file to start the node API.
 4. Use HTTP requests to interact with the API and manage transactions.
