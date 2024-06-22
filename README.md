@@ -32,16 +32,16 @@ To start using AmirCoin, follow these steps:
 ## Example Usage
 
 Create a transaction:
-curl -X POST http://localhost:5001/transaction -H "Content-Type: application/json" -d '{"receiver": "recipient_address", "amount": 10}''''
+`curl -X POST http://localhost:5001/transaction -H "Content-Type: application/json" -d '{"receiver": "recipient_address", "amount": 10}`
 Mine a block:
-curl http://localhost:5001/mine
+`curl http://localhost:5001/mine`
 Check the blockchain:
-curl http://localhost:5001/chain
+`curl http://localhost:5001/chain`
 
 ## Security Considerations
 • AmirCoin uses basic SHA-256 hashing for block creation and digital signatures for transaction verification.
 • Private keys should be securely stored and managed to prevent unauthorized access.
-• Transactions should be verified before being added to the blockchain to prevent double spending.
+• V2.0, not yet released, will have a double spending solution.  
 
 ## Disclaimer
 AmirCoin is for private transactions.  Value is arbitrated on a peer-to-peer basis, and no central authority tracks AmirCoin price history.  
